@@ -1,0 +1,21 @@
+{
+  "name": "Hello World Plugin",
+  "description": "A simple KiCad 10 schematic plugin that prints Hello World.",
+  "version": "1.0",
+  "author": "Corne",
+  "license": "MIT",
+  "type": "plugin",
+  "targets": ["eeschema"],
+  "actions": [
+    {
+      "name": "hello_world_action",
+      "label": "Hello World",
+      "tooltip": "Print Hello World",
+      "icon": "hello_icon.png",
+      "menu": {
+        "path": "Tools",
+        "label": "Hello World"
+      }
+    }
+  ]
+}
