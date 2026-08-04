@@ -1,5 +1,5 @@
 {
-  "name": "Hello World Plugin",
+  "name": "Update Title Blocks",
   "description": "A simple KiCad 10 schematic plugin that prints Hello World.",
   "version": "1.0",
   "author": "Corne",
@@ -8,13 +8,13 @@
   "targets": ["eeschema"],
   "actions": [
     {
-      "name": "hello_world_action",
-      "label": "Hello World",
-      "tooltip": "Print Hello World",
+      "name": "update_title_blocks_action",
+      "label": "Update Title Blocks",
+      "tooltip": "Run Update Title Blocks",
       "icon": "hello_icon.png",
       "menu": {
         "path": "Tools",
-        "label": "Hello World"
+        "label": "Update Title Blocks"
       }
     }
   ]
